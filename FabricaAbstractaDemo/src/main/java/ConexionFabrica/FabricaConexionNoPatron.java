@@ -14,13 +14,13 @@ public class FabricaConexionNoPatron {
         switch (Servidor) {
             case 1:
                 return DriverManager.getConnection("jdbc:oracle:thin:@35.211.109.53:1521:XE", 
-                        "SYSTEM", "oraclejvaleriom1999");
+                        "user", "pass");
             case 2:
                 return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", 
-                        "CAME_LOCAL", "vallegrande2018");
+                        "user", "pass");
             case 3:
                 return DriverManager.getConnection("jdbc:oracle:thin:@35.229.77.157:1521:XE", 
-                        "CAME", "vallegrande2018");
+                        "user", "pass");
             default:
                 return null;
         }
