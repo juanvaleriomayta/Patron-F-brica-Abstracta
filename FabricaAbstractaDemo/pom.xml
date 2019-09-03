@@ -5,9 +5,45 @@
     <artifactId>FabricaAbstractaDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        
+        
+        <dependency>
+            <groupId>com.github.noraui</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
+        </dependency>
+ 
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+    <repositories>
+        <repository>
+            <url>http://central.maven.org/maven2/</url>
+            <id>maven</id>
+            <layout>default</layout>
+            <name>Maven Repository</name>
+        </repository>
+        <repository>
+            <url>http://nexus.saas.hand-china.com/content/repositories/rdc/</url>
+            <id>oracle</id>
+            <layout>default</layout>
+            <name>Oracle Driver JDBC</name>
+        </repository>
+        <repository>
+            <url>http://repository.primefaces.org/</url>
+            <id>PrimeFaces-maven-lib</id>
+            <layout>default</layout>
+            <name>Repository for library PrimeFaces-maven-lib</name>
+        </repository>
+        <!--<repository>-->
+        <!--<url>https://jaspersoft.artifactoryonline.com/jaspersoft/jr-ce-releases/</url>-->
+        <!--<id>jasperreports</id>-->
+        <!--<layout>default</layout>-->
+        <!--<name>Jasper Reports Function</name>-->
+        <!--</repository>-->
+    </repositories>
 </project>

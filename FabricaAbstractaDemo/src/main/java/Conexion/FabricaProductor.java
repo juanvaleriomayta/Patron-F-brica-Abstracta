@@ -6,7 +6,7 @@ public class FabricaProductor {
 
     public static FabricaAbstracta getFactory(String tipoFabrica) {
 
-        if (tipoFabrica.equalsIgnoreCase("BD")) {
+        if (tipoFabrica.equalsIgnoreCase("BDVALERIO")) {
             return new ConexionBDFabrica();
         }
 
