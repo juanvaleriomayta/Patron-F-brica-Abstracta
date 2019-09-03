@@ -18,8 +18,10 @@ public class ConexionBDFabrica implements FabricaAbstracta{
 		}
 		if (motor.equalsIgnoreCase("MYSQL")) {
 			return new ConexionMySQL();
+                        
 		} else if (motor.equalsIgnoreCase("ORACLE")) {
 			return new ConexionOracle();
+                        
 		} else if (motor.equalsIgnoreCase("SQL")) {
 			return new ConexionSQLServer();
 		}

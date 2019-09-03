@@ -7,12 +7,12 @@ public class ConexionVacia implements IConexionBD{
 
 	@Override
 	public void conectar() {
-		System.out.println("NO SE ESPECIFICO PROVEEDOR");		
+		System.out.println("CONEXION SIN EXITO");		
 	}
 
 	@Override
 	public void desconectar() {
-		System.out.println("NO SE ESPECIFICO� PROVEEDOR");		
+		System.out.println("CONEXION SIN EXITO");		
 	}
 
 }
