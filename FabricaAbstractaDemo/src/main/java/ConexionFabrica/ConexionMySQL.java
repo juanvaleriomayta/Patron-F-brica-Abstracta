@@ -9,13 +9,13 @@ public class ConexionMySQL implements IConexionBD {
 	private String host;
 	private String puerto;
 	private String usuario;
-	private String contrasena;
+	private String contraseña;
 
 	public ConexionMySQL() {
 		this.host = "localhost";
 		this.puerto = "3306";
 		this.usuario = "root";
-		this.contrasena = "123";
+		this.contraseña = "123";
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class ConexionMySQL implements IConexionBD {
 
 	@Override
 	public String toString() {
-		return "ConexionMySQL [host=" + host + ", puerto=" + puerto + ", usuario=" + usuario + ", contrasena="
-				+ contrasena + "]";
+		return "ConexionMySQL [host=" + host + ", puerto=" + puerto + ", usuario=" + usuario + ", contraseña="
+				+ contraseña + "]";
 	}
 }

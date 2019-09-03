@@ -8,13 +8,13 @@ public class ConexionSQLServer implements IConexionBD {
 	private String host;
 	private String puerto;
 	private String usuario;
-	private String contrasena;
+	private String contraseña;
 
 	public ConexionSQLServer() {
 		this.host = "localhost";
 		this.puerto = "1433";
 		this.usuario = "sqlval";
-		this.contrasena = "123";
+		this.contraseña = "123";
 	}
 
 	@Override
@@ -54,11 +54,11 @@ public class ConexionSQLServer implements IConexionBD {
 	}
 
 	public String getContrasena() {
-		return contrasena;
+		return contraseña;
 	}
 
-	public void setContrasena(String contrasena) {
-		this.contrasena = contrasena;
+	public void setContrasena(String contraseña) {
+		this.contraseña = contraseña;
 	}
 
 }

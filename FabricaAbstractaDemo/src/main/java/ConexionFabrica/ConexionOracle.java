@@ -8,13 +8,13 @@ public class ConexionOracle implements IConexionBD {
 	private String host;
 	private String puerto;
 	private String usuario;
-	private String contrasena;
+	private String contraseña;
 
 	public ConexionOracle() {
 		this.host = "localhost";
 		this.puerto = "1521";
 		this.usuario = "admin";
-		this.contrasena = "123";
+		this.contraseña = "123";
 	}
 
 	@Override
@@ -31,8 +31,8 @@ public class ConexionOracle implements IConexionBD {
 
 	@Override
 	public String toString() {
-		return "ConexionOracle [host=" + host + ", puerto=" + puerto + ", usuario=" + usuario + ", contrasena="
-				+ contrasena + "]";
+		return "ConexionOracle [host=" + host + ", puerto=" + puerto + ", usuario=" + usuario + ", contraseña="
+				+ contraseña + "]";
 	}
 
 }
